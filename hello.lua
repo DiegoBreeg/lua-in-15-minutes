@@ -1,18 +1,22 @@
 string = "teste"
 
-print(string)
-
-local bool = true
-
-if bool then
-	print("bool is true")
-end
-
 -- apenas nil e false são falsos
 
-print("a" == "b")
--- ~~= diferente de
+-- operadores lógicos
+-- == igual a
+-- ~= diferente de
 -- and e
 -- or ou
--- == igual a
---
+
+if nil then
+	print("is not nil")
+else
+	print("is nil")
+end
+
+i = 0
+
+while i < 10 do
+	print(i)
+	i = i + 1
+end
